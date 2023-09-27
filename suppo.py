@@ -18,14 +18,6 @@ def readJson(obj):
 
 @readJson
 class Environment(object):
-    """klasa przedstawijaca srodowisko
-       przyklad uzycia:
-       env = Environment()
-       env.readJson('scen2.json')
-       print(env.staticObstacles)
-       env.plot([[0.8, 0.1], [0.8, 0.5]])
-    """
-
     def __init__(self):
         super(Environment, self).__init__()
         self.regionSize = [1, 1]
